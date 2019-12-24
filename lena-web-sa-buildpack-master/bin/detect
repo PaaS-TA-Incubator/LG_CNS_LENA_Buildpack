@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+
+if [ ! ( -f $1/proxy.conf ) ]
+then
+  echo "No" && exit 1
+else
+  echo "Good" && exit 0
+fi

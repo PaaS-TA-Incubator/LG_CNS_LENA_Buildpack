@@ -1,0 +1,9 @@
+---
+applications:
+- name: sample-web
+  memory: 1G
+  random-route: true
+#  health-check-type: http
+#  health-check-http-endpoint: /index.html
+#  path: build/libs/spring-music-1.0.jar
+#  env:
